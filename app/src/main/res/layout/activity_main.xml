@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    tools:context="ibrahim.youssouf.datasharedpreferences.MainActivity">
+
+
+
+    <EditText android:id="@+id/saisie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="entrez votre texte" />
+
+    <Button android:text="Générer nb aléatoire"
+        android:onClick="generation"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" />
+
+    <Button android:id="@+id/savebut"
+        android:text="Sauvegarde"
+        android:onClick="save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button android:id="@+id/readbut"
+        android:text="Lecture"
+        android:onClick="read"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView android:id="@+id/textelu"
+        android:layout_columnSpan="2"  />
+
+
+
+
+</GridLayout>
